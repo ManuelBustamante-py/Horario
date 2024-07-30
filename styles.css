@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #62b5c0, #c2bcbc);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.schedule {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    vertical-align: top;
+}
+
+.cell.time {
+    background-color: #ffffff;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header .cell {
+    background-color: #1976d2;
+    color: #fff;
+    font-weight: bold;
+}
+
+.row .cell:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+
+.schedule .row:not(:first-child) .cell {
+    margin-top: 10px;
+}
