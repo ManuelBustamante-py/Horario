@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    background: linear-gradient(to right, #6fbbc5, #cebaba);
     margin: 0;
     padding: 20px;
 }
@@ -17,6 +17,26 @@ body {
 h1 {
     text-align: center;
     color: #333;
+}
+
+.days {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.day-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.day-button:hover {
+    background-color: #155a9a;
 }
 
 .schedule {
@@ -75,27 +95,21 @@ h1 {
     }
 
     .row {
-        display: flex;
-        flex-direction: column;
+        display: block;
         margin-bottom: 15px;
     }
 
     .cell {
-        display: flex;
-        flex-direction: column;
+        display: block;
         width: 100%;
         margin-bottom: 10px;
-        padding: 5px;
+        padding: 10px;
     }
 
     .cell.time {
         background-color: #1976d2;
         color: #fff;
         font-weight: bold;
-    }
-
-    .card p {
-        font-size: 14px;
     }
 
     .header .cell {
