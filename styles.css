@@ -59,7 +59,7 @@ p {
 .cell {
     display: table-cell;
     padding: 10px;
-    background-color: #e3f2fd;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 5px;
@@ -74,7 +74,7 @@ p {
 }
 
 .card {
-    background-color: #ffffff;
+    background-color: #dcecf0;
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
