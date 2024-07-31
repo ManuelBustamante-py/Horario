@@ -28,6 +28,7 @@ p {
 .buttons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Añadir flex-wrap */
     gap: 10px;
 }
 
@@ -127,6 +128,11 @@ p {
     .header .cell {
         display: none;
     }
+
+    .buttons a {
+        padding: 8px 16px; /* Ajustar padding para pantallas pequeñas */
+        margin-bottom: 10px; /* Añadir margen inferior entre botones */
+    }
 }
 
 @media (max-width: 480px) {
@@ -136,5 +142,9 @@ p {
 
     h1 {
         font-size: 18px;
+    }
+
+    .buttons a {
+        padding: 6px 12px; /* Ajustar padding para pantallas muy pequeñas */
     }
 }
