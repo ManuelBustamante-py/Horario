@@ -157,3 +157,21 @@ p {
         padding: 6px 12px; /* Ajustar padding para pantallas muy pequeñas */
     }
 }
+
+.back-button {
+    margin-bottom: 20px; /* Añadir margen inferior para separar del resto del contenido */
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #681c1c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button a:hover {
+    background-color: #5d1f70;
+}
